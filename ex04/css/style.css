@@ -1,0 +1,64 @@
+
+        body {
+            font-family: "Times New Roman", Times, serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 20px;
+        }
+
+        article {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #1565C0;
+            text-transform: uppercase;
+            font-size: 26px;
+            margin-top: 0;
+            margin-bottom: 16px;
+        }
+
+        h1 span {
+            display: block;
+            font-size: 0.7em;
+            margin-top: 4px;
+        }
+
+        .anh-banner {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin: 16px 0;
+            display: block;
+        }
+
+        p {
+            text-align: justify;
+            line-height: 1.6;
+            font-size: 16px;
+            color: #222222;
+            margin-top: 0;
+            margin-bottom: 16px;
+        }
+
+        p::first-letter {
+            color: #C62828;
+            font-size: 3rem;
+            font-weight: bold;
+            float: left;
+            line-height: 0.85;
+            padding: 0.1rem 0.35rem 0 0;
+        }
+
+        .thanh-tieu-de-phu {
+            background-color: #1565C0;
+            color: #ffffff;
+            text-align: right;
+            padding: 8px 16px;
+            margin: 16px 0;
+            font-size: 15px;
+        }
+    
