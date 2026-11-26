@@ -1,0 +1,68 @@
+
+        body {
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            background: linear-gradient(180deg, #7ec8e3, #0a5c8a);
+            font-family: "Times New Roman", Times, serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+        }
+
+        article.bai-viet {
+            background-color: rgba(255, 255, 255, 0.95);
+            width: 820px;
+            border-radius: 10px;
+            padding: 28px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        h1 {
+            text-align: center;
+            color: #0b3d5c;
+            font-family: Arial, sans-serif;
+            font-size: 24px;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+
+        p.sapo {
+            background-color: #0b3d5c;
+            color: #FFFFFF;
+            font-style: italic;
+            padding: 14px 18px;
+            border-radius: 6px;
+            line-height: 1.5;
+            margin-bottom: 22px;
+        }
+
+        .anh-minh-hoa {
+            float: right;
+            width: 310px;
+            height: auto;
+            margin-left: 20px;
+            margin-bottom: 10px;
+            border-radius: 6px;
+        }
+
+        p.than-bai {
+            text-align: justify;
+            line-height: 1.6;
+            color: #222222;
+            font-size: 16px;
+            margin-top: 0;
+            margin-bottom: 16px;
+        }
+
+        p.than-bai::first-letter {
+            color: #0b3d5c;
+            font-size: 3rem;
+            font-weight: bold;
+            float: left;
+            line-height: 0.85;
+            padding: 0.1rem 0.4rem 0 0;
+        }
+    
