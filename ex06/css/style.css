@@ -1,0 +1,59 @@
+ 
+        body {
+            background-color: #FAF3E0;
+            font-family: "Times New Roman", Times, serif;
+            margin: 30px auto;
+            max-width: 820px;
+        }
+
+        h1 {
+            color: #E65100;
+            font-size: 26px;
+            text-align: center;
+            margin: 0 0 24px;
+        }
+
+        .bo-cuc {
+            display: grid;
+            grid-template-columns: 220px 1fr;
+            gap: 24px;
+            align-items: start;
+        }
+
+        .cot-anh img {
+            width: 100%;
+            height: auto;
+        }
+
+        table {
+            width: 100%;
+            background-color: #FFFFFF;
+            border-collapse: collapse;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        thead th {
+            background-color: #E65100;
+            color: #FFFFFF;
+            font-weight: bold;
+            padding: 9px 12px;
+        }
+
+        tbody td {
+            padding: 9px 12px;
+            border-bottom: 1px solid #E0D6C2;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #FDF8EF;
+        }
+
+        .cot-stt {
+            width: 60px;
+            text-align: center;
+        }
+
+        .cot-ten {
+            text-align: left;
+        }
+    
